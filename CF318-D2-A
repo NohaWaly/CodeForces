@@ -1,0 +1,19 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    long long k,num,n;
+    double mid;
+    cin>>n>>k;
+    mid = ceil(double(n)/2);
+    if(k<= mid){
+       num= k*2-1;
+    }
+    else{
+        num=(k-mid)*2;
+    }
+	cout<<num<<endl;
+    return 0;
+}
